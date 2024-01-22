@@ -3,7 +3,7 @@ Unified Linux Wine Game Launcher
 
 
 # THIS REPO HAS MOVED
-This project is now part of OWC -- https://github.com/Open-Wine-Components/ULWGL
+This project is now part of OWC -- https://github.com/Open-Wine-Components/ULWGL-launcher
 
 ULWGL -- A clone of the steam runtime tools and steam runtime container for use outside of steam, is now part of OWC (Open Wine Components).  Moving forward work will be continued in that repo
 
