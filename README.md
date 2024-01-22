@@ -2,6 +2,12 @@
 Unified Linux Wine Game Launcher
 
 
+# THIS REPO HAS MOVED
+This project is now part of OWC -- https://github.com/Open-Wine-Components/ULWGL
+
+ULWGL -- A clone of the steam runtime tools and steam runtime container for use outside of steam, is now part of OWC (Open Wine Components).  Moving forward work will be continued in that repo
+
+
 # WHAT IS THIS?
 
 This is a work in progress POC (proof of concept) for a unified launcher for windows games on linux. It is essentially a copy of the Steam Linux Runtime/Steam Runtime Tools (https://gitlab.steamos.cloud/steamrt/steam-runtime-tools) that Valve uses for proton, with some modifications made so that it can be used outside of Steam.
