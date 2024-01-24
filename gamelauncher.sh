@@ -14,6 +14,9 @@ if [[ $WINEPREFIX ]]; then
    ln -s "$WINEPREFIX" "$WINEPREFIX"/pfx
    touch "$WINEPREFIX"/tracked_files
 fi
+
+DIRNAME=$(dirname $0)
+
 export PROTONPATH="$1"
 export STEAM_COMPAT_APP_ID="$GAMEID"
 export SteamAppId="$STEAM_COMPAT_APP_ID"
@@ -31,4 +34,4 @@ export FONTCONFIG_PATH=''
 export EXE="$2"
 export LAUNCHARGS="$3"
 
-./ULWGL --verb=waitforexitandrun -- "$PROTONPATH"/proton waitforexitandrun "$EXE" "$LAUNCHARGS"
+"$DIRNAME/ULWGL" --verb=waitforexitandrun -- "$PROTONPATH"/proton waitforexitandrun "$EXE" "$LAUNCHARGS"
